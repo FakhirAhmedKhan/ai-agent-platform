@@ -72,7 +72,7 @@ const Navbar = () => {
             ))}
             <div className="pt-3 border-t border-slate-100">
               <a
-                href="/"
+                href="/app"
                 className="block text-center px-5 py-3 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-indigo-600 to-purple-600"
               >
                 Launch App

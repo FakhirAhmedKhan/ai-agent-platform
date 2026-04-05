@@ -43,14 +43,14 @@ const Hero = () => {
             {/* CTAs */}
             <div className="flex flex-wrap gap-4">
               <a
-                href="/"
+                href="/app"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl text-white font-bold bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 shadow-xl shadow-indigo-500/25 hover:shadow-indigo-500/40 transition-all hover:-translate-y-0.5 active:translate-y-0"
               >
                 Get Started
                 <ArrowRight className="w-5 h-5" />
               </a>
               <a
-                href="/"
+                href="/app"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-2xl font-bold border border-slate-200 bg-white hover:bg-slate-50 text-slate-900 shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5 active:translate-y-0"
               >
                 View Dashboard

@@ -9,55 +9,5 @@
       "entrypoint": "backend",
       "routePrefix": "/_/backend"
     }
-  },
-  "rewrites": [
-    {
-      "source": "/app",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/app/(.*)",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/login",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/register",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/dashboard",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/dashboard/(.*)",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/agents",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/tasks",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/usage",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/settings",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/costing",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/notes",
-      "destination": "/index.html"
-    }
-  ]
+  }
 }
