@@ -9,5 +9,11 @@
       "entrypoint": "backend",
       "routePrefix": "/_/backend"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/((?!api/|_(?!backend)|assets/|favicon.ico).*)",
+      "destination": "/index.html"
+    }
+  ]
 }
