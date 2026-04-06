@@ -10,7 +10,7 @@ const LoginPage: React.FC = () => {
             
             <div className="z-10 w-full px-4">
                 <div className="flex justify-center mb-8">
-                   <h1 className="text-2xl font-black text-slate-900 tracking-tighter uppercase italic">Antigravity</h1>
+                   <h1 className="text-2xl font-black text-slate-900 tracking-tighter uppercase italic">Ai Agent Platform</h1>
                 </div>
                 <div className="flex justify-center">
                     <LoginForm />
