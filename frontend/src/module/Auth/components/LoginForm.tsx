@@ -20,7 +20,7 @@ const LoginForm: React.FC = () => {
         try {
             setIsSubmitting(true);
             await login(formData);
-            navigate('/');
+            navigate('/app');
         } catch (err) {
             console.error(err);
         } finally {

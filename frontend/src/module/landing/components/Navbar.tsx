@@ -1,5 +1,6 @@
 import { Brain, Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const navLinks = [
   { label: "Features", href: "#features" },
@@ -39,12 +40,12 @@ const Navbar = () => {
 
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <a
-            href="/app"
+          <Link
+            to="/app"
             className="px-5 py-2.5 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 transition-all hover:-translate-y-0.5 active:translate-y-0"
           >
             Launch App
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Toggle */}
@@ -71,12 +72,12 @@ const Navbar = () => {
               </a>
             ))}
             <div className="pt-3 border-t border-slate-100">
-              <a
-                href="/app"
+              <Link
+                to="/app"
                 className="block text-center px-5 py-3 rounded-xl text-sm font-bold text-white bg-gradient-to-r from-indigo-600 to-purple-600"
               >
                 Launch App
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ const RegisterForm: React.FC = () => {
         try {
             setIsSubmitting(true);
             await register(formData);
-            navigate('/');
+            navigate('/app');
         } catch (err) {
             console.error(err);
         } finally {
