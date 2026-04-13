@@ -1,7 +1,6 @@
 import { memo, useContext } from "react";
 import { AgentFormContext } from "../hook/Agent.Provider";
-import FromFirstRow from "./FromFirstRow";
-import FromSecondRow from "./FromSecondRow";
+import FromInput from "./FromInput";
 
 const ShowForm = () => {
   const { handleSubmit, showForm } = useContext(AgentFormContext);
@@ -15,9 +14,7 @@ const ShowForm = () => {
           : "hidden"
       }
     >
-      <FromFirstRow />
-
-      <FromSecondRow />
+      <FromInput />
 
       <button
         type="submit"
