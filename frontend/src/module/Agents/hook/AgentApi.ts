@@ -1,11 +1,12 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { api, endpoints } from "../../../configs/app.config";
 import { useAuth } from "../../Auth/hooks/useAuth";
+import type { AgentApiResponse } from "./Agent.types";
 
 export const useAgentApi = () => {
     const queryClient = useQueryClient();
 
-    const getAgents = async () => {
+    const getAgents = async (): Promise<AgentApiResponse> => {
         const { data } = await api.get(endpoints.agents);
         return data;
     };

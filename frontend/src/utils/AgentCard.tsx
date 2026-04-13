@@ -1,7 +1,7 @@
 import { Bot } from "lucide-react";
 import { StatusBadge } from "../test";
 
-export function AgentCard({ agent, onSelect, selected }) {
+export function AgentCard({ agent, selected }) {
   const baseCard =
     "w-full text-left rounded-3xl p-6 border transition-all shadow-sm";
   const selectedCard = "bg-slate-900 text-white border-slate-900 shadow-lg";
@@ -20,7 +20,6 @@ export function AgentCard({ agent, onSelect, selected }) {
 
   return (
     <button
-      onClick={onSelect}
       className={`${baseCard} ${selected ? selectedCard : normalCard}`}
     >
       {/* Header */}
